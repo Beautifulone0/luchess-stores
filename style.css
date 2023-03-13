@@ -1,0 +1,29 @@
+.showcase-img img{
+  position: relative;
+  left: 1rem;
+  width: 50%;
+  height: 50%;
+  padding: 3rem;
+  border-radius: 100px 100px 0px 100px;
+}
+.showcase-img img::before{
+  background-color: red;
+}
+.showcase-text{
+  padding-top: 3rem;
+}
+@media(min-width: 768px){
+  .news-input{
+    width: 50%;
+  }
+}
+.shop-now img{
+  border-radius: 50px 50px 0px 50px;
+}
+.card{
+  width: 300px;
+}
+.modal-body img{
+  width: 300px;
+  margin: 3rem;
+}
